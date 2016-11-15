@@ -1,3 +1,3 @@
-# COZI
+# Cozi
 
-Cozi is a chrome extension that contains audio for studying, productivity, and creativity.
+A chrome extension that contains audio based on science for studying, productivity, and creativity.

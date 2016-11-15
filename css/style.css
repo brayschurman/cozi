@@ -1,0 +1,24 @@
+body {
+    width: 300px;
+}
+
+.wrap {
+    width: 600px;
+    height: 10px;
+}
+
+.stuffCenter {
+    display: flex;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.titlePadding {
+    padding: 0px;
+}
+
+.songTitle {
+    text-align: center;
+}
