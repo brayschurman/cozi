@@ -3846,9 +3846,9 @@ ul, ol {
   border-radius: 2px;
   color: rgb(0,0,0);
   position: relative;
-  height: 36px;
+  height: 75px;
   margin: 0;
-  min-width: 64px;
+  min-width: 80%;
   padding: 0 16px;
   display: inline-block;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;

@@ -1,16 +1,22 @@
 {
-	"manifest_version": 2,
+    "manifest_version": 2,
 
-	"name": "Cozi",
-	"description": "Warm noise cancelling sounds",
-	"version": "1.0",
+    "name": "Cozi",
+    "description": "Sonic Science",
+    "version": "1.1",
 
-	"browser_action": {
-		"default_icon": "logo.png",
-		"default_popup": "popup.html"
-	},
-	"permissions":[
-		"activeTab",
-		"https://ajax.googleapis.com/"
-	]
+    "browser_action": {
+        "default_icon": "logo.png",
+        "default_popup": "popup.html"
+    },
+
+    "background": {
+        "scripts": ["js/jquery-3.1.1.min.js", "js/custom.js"],
+        "persistent": false
+    },
+
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapis.com/"
+    ]
 }
