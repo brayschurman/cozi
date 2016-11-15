@@ -1,3 +1,10 @@
 # Cozi
 
-A chrome extension that contains audio based on science for studying, productivity, and creativity.
+a chrome extension based on sonic science.
+
+With 4 audio categories, each track has a _purpose_.
+
+* Studying
+* Noise Cancelling
+* Reading
+* Nature
