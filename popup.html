@@ -3,9 +3,9 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mdl/material.min.css">
+    <link rel="stylesheet" href="mdl/material.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
@@ -16,43 +16,47 @@
                 <div class="mdl-layout-title">Cozi</div>
             </div>
         </header>
-        <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Cozi Library</span>
-            <nav class="mdl-navigation">
-                <a class="selection mdl-navigation__link" href="#">Binaural Beats</a>
-                <a class="selection mdl-navigation__link" href="">Soothing Sounds</a>
-                <a class="selection mdl-navigation__link" href="">Perfectly Productive</a>
-                <a class="selection mdl-navigation__link" href="">Noise Cancelling</a>
-            </nav>
-        </div>
-        <div class="mdl-grid stuffCenter ">
-            <div class="mdl-cell mdl-cell--12-col">
-                <p class="songTitle"><em>Song Title</em></p>
-            </div>
-            <div class="mdl-cell mdl-cell--4-col">
-                <button class="stuffCenter mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                    <i class="material-icons">skip_previous</i>
-                </button>
-            </div>
-            <div class="mdl-cell mdl-cell--4-col">
-                <button class="stuffCenter playSound mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                    <i class="logoPlaying material-icons">play_arrow</i>
-                    <i style="display:none;" class="logoPlaying material-icons">pause</i>
-                </button>
-            </div>
-            <div class="mdl-cell mdl-cell--4-col">
-                <button class="stuffCenter mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                    <i class="material-icons">skip_next</i>
-                </button>
-            </div>
+        <div class="mdl-grid playSongEscape">
             <div class="mdl-cell mdl-cell--12-col">
                 <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="25" tabindex="0">
             </div>
+            <div class="mdl-cell mdl-cell--12-col">
+                <!-- <p class="songTitle"><em>Song Title</em></p> -->
+            </div>
+            <div style="text-align: center;" class="mdl-cell mdl-cell--12-col">
+                <button id="playSongFocus" class="playSound mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                    Focus
+                </button>
+            </div>
+            <div style="text-align: center;" class="mdl-cell mdl-cell--12-col">
+                <button id="playSongRelax" class="playSound mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                    Relax
+                </button>
+            </div>
+            <div style="text-align: center;" class="mdl-cell mdl-cell--12-col">
+                <button id="playSongEscape" class="playSound mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                    Escape
+                </button>
+            </div>
+            <div style="text-align: center;" class="mdl-cell mdl-cell--12-col">
+                <button id="playSongRelax" class="playSound mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                    Mask
+                </button>
+            </div>
         </div>
     </div>
-    <audio class="sound">
-        <source src="audio/song_1.mp3" type="audio/mpeg">
+    <audio class="songFocus">
+        <source src="audio/songFocus.mp3" type="audio/mpeg">
     </audio>
+    <audio class="songRelax">
+        <source src="audio/song_2.m4a" type="audio/mpeg">
+    </audio>
+    <!--     <audio class="sound">
+        <source src="audio/song_2.m4a" type="audio/mpeg">
+    </audio>
+    <audio class="sound">
+        <source src="audio/song_2.m4a" type="audio/mpeg">
+    </audio> -->
     <script src="mdl/material.min.js"></script>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/custom.js"></script>
