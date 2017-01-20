@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "Cozi",
+    "name": "COZI",
     "description": "Sonic Science",
     "version": "1.1",
 
@@ -11,8 +11,7 @@
     },
 
     "background": {
-        "scripts": ["js/jquery-3.1.1.min.js", "js/custom.js"],
-        "persistent": false
+        "scripts": ["js/jquery-3.1.1.min.js", "js/background.js"]
     },
 
     "permissions": [
