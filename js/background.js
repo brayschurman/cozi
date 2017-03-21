@@ -12,15 +12,23 @@ audioSrc.type = 'audio/mpeg';
 audioSrc.src = 'audio/song_2.m4a';
 audio.appendChild(audioSrc);
 
-chrome.runtime.sendMessage({ greeting: "heyy!" },
-    function(request, sender, sendResponse) {
-        if (request.action == "songFocus") {
-            alert("fuck u 2")
-            audio.load;
-            audio.play();
-        }
-    });
+// chrome.runtime.sendMessage({ greeting: "heyy!" },
+//     function(request, sender, sendResponse) {
+//         if (request.action == "songFocus") {
+//             alert("fuck u 2")
+//             audio.load;
+//             audio.play();
+//         }
+//     });
 
+
+$("#songFocus").click(function({
+    console.log("heyy");
+    })
+);
+
+
+chrome.runtime.sendMessage("gcpnmlkfgojfmpkgkckaldbhkghbanop", "hello");
 
 
 

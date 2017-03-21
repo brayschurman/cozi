@@ -1,0 +1,3 @@
+event page for each track, call event page when button is clicked
+
+button (click) -> load event page
